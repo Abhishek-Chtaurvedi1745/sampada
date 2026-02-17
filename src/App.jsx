@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' // Import Router
 import Nav from "./Components/Nav";
 
-import Home from "./pages/Home";
+
 import About from "./pages/AboutUs";
 
 import Sampadahealthcare from './Pages/Sampadahealthcare';
@@ -10,6 +10,7 @@ import Simpsonhealthcare from './Pages/Simpsonhealthcare';
 import Farmdivision from './Pages/Farmdivision';
 import Cottagedivision from './Pages/Cottagedivision';
 import Windandrenewable from './Pages/Windandrenewable';
+import Home from './Pages/Home';
 
 
 function App() {
